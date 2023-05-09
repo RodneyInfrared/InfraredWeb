@@ -141,99 +141,6 @@ function PlasmicFooterSection__RenderFunc(props: {
             {"Infrared Web Design\nWe design websites."}
           </div>
         </div>
-        <div className={classNames(projectcss.all, sty.freeBox__oq0Fs)}>
-          <h4
-            className={classNames(
-              projectcss.all,
-              projectcss.h4,
-              projectcss.__wab_text,
-              sty.h4__iep1K
-            )}
-          >
-            {"Menu"}
-          </h4>
-          <Button
-            className={classNames("__wab_instance", sty.button___7Nmv9)}
-            color={"footerButton" as const}
-            endIcon={
-              <svg
-                className={classNames(projectcss.all, sty.svg__drGdb)}
-                role={"img"}
-              />
-            }
-            link={"#" as const}
-            startIcon={
-              <svg
-                className={classNames(projectcss.all, sty.svg__lhDnx)}
-                role={"img"}
-              />
-            }
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__dkgoh
-              )}
-            >
-              {"How it work"}
-            </div>
-          </Button>
-          <Button
-            className={classNames("__wab_instance", sty.button__eYls)}
-            color={"footerButton" as const}
-            endIcon={
-              <svg
-                className={classNames(projectcss.all, sty.svg__biWU)}
-                role={"img"}
-              />
-            }
-            link={"#" as const}
-            startIcon={
-              <svg
-                className={classNames(projectcss.all, sty.svg__dQgqe)}
-                role={"img"}
-              />
-            }
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__nPsZ
-              )}
-            >
-              {"Pricing"}
-            </div>
-          </Button>
-          <Button
-            className={classNames("__wab_instance", sty.button__m9Xoe)}
-            color={"footerButton" as const}
-            endIcon={
-              <svg
-                className={classNames(projectcss.all, sty.svg__nEx60)}
-                role={"img"}
-              />
-            }
-            link={"#" as const}
-            startIcon={
-              <svg
-                className={classNames(projectcss.all, sty.svg__lwTwI)}
-                role={"img"}
-              />
-            }
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__mnltl
-              )}
-            >
-              {"FAQs"}
-            </div>
-          </Button>
-        </div>
         <div className={classNames(projectcss.all, sty.freeBox__vvjRm)}>
           <h4
             className={classNames(
@@ -269,7 +176,26 @@ function PlasmicFooterSection__RenderFunc(props: {
                 sty.text__ajLcM
               )}
             >
-              {"Privacy and Policy"}
+              <React.Fragment>
+                <React.Fragment>{""}</React.Fragment>
+                {
+                  <a
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      projectcss.plasmic_default__inline,
+                      sty.link__pHqUd
+                    )}
+                    href={
+                      "https://www.formpl.us/form/6619299310075904" as const
+                    }
+                  >
+                    {"Contact"}
+                  </a>
+                }
+                <React.Fragment>{""}</React.Fragment>
+              </React.Fragment>
             </div>
           </Button>
           <Button
@@ -296,7 +222,24 @@ function PlasmicFooterSection__RenderFunc(props: {
                 sty.text__fAtbA
               )}
             >
-              {"Terms of Use"}
+              <React.Fragment>
+                <React.Fragment>{""}</React.Fragment>
+                {
+                  <a
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      projectcss.plasmic_default__inline,
+                      sty.link__q2QHc
+                    )}
+                    href={"https://infraredus.xyz" as const}
+                  >
+                    {"Infrared"}
+                  </a>
+                }
+                <React.Fragment>{""}</React.Fragment>
+              </React.Fragment>
             </div>
           </Button>
         </div>

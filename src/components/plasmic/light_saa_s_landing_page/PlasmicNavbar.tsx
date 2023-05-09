@@ -212,7 +212,7 @@ function PlasmicNavbar__RenderFunc(props: {
                   role={"img"}
                 />
               }
-              link={"./contact" as const}
+              link={"https://www.formpl.us/form/6619299310075904" as const}
               startIcon={
                 <svg
                   className={classNames(projectcss.all, sty.svg__mdtul)}

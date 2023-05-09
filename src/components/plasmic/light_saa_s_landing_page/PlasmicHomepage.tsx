@@ -69,6 +69,7 @@ export type PlasmicHomepage__OverridesType = {
   navbar?: p.Flex<typeof Navbar>;
   svg?: p.Flex<"svg">;
   columns?: p.Flex<"div">;
+  more?: p.Flex<typeof Section>;
   h2?: p.Flex<"h2">;
   textInput?: p.Flex<typeof TextInput>;
   footerSection?: p.Flex<typeof FooterSection>;
@@ -197,7 +198,9 @@ function PlasmicHomepage__RenderFunc(props: {
                           role={"img"}
                         />
                       }
-                      link={"#" as const}
+                      link={
+                        "https://www.formpl.us/form/6619299310075904" as const
+                      }
                       showEndIcon={true}
                     >
                       <div
@@ -218,7 +221,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         sty.button__z6VRh
                       )}
                       color={"blueBorder" as const}
-                      link={"#" as const}
+                      link={"#More" as const}
                     >
                       <div
                         className={classNames(
@@ -348,8 +351,10 @@ function PlasmicHomepage__RenderFunc(props: {
             </div>
           </Section>
           <Section
+            data-plasmic-name={"more"}
+            data-plasmic-override={overrides.more}
             background={"darkBlue" as const}
-            className={classNames("__wab_instance", sty.section__sk9GP)}
+            className={classNames("__wab_instance", sty.more)}
             size={
               hasVariant(globalVariants, "screen", "mobile")
                 ? ("fullContentWidth" as const)
@@ -701,6 +706,7 @@ const PlasmicDescendants = {
     "navbar",
     "svg",
     "columns",
+    "more",
     "h2",
     "textInput",
     "footerSection"
@@ -709,6 +715,7 @@ const PlasmicDescendants = {
   navbar: ["navbar"],
   svg: ["svg"],
   columns: ["columns"],
+  more: ["more", "h2"],
   h2: ["h2"],
   textInput: ["textInput"],
   footerSection: ["footerSection"]
@@ -722,6 +729,7 @@ type NodeDefaultElementType = {
   navbar: typeof Navbar;
   svg: "svg";
   columns: "div";
+  more: typeof Section;
   h2: "h2";
   textInput: typeof TextInput;
   footerSection: typeof FooterSection;
@@ -791,6 +799,7 @@ export const PlasmicHomepage = Object.assign(
     navbar: makeNodeComponent("navbar"),
     svg: makeNodeComponent("svg"),
     columns: makeNodeComponent("columns"),
+    more: makeNodeComponent("more"),
     h2: makeNodeComponent("h2"),
     textInput: makeNodeComponent("textInput"),
     footerSection: makeNodeComponent("footerSection"),
