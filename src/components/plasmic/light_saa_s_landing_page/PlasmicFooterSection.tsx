@@ -39,6 +39,7 @@ import { useScreenVariants as useScreenVariantsaEvo4SWs5YfHIr } from "./PlasmicG
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostless.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic_light_saa_s_landing_page.module.css"; // plasmic-import: tk14VmZD6JAcm2qRqNW5xk/projectcss
 import sty from "./PlasmicFooterSection.module.css"; // plasmic-import: ERk_5z9EMv-Pjx/css
 
@@ -120,6 +121,7 @@ function PlasmicFooterSection__RenderFunc(props: {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.root
       )}
     >

@@ -55,7 +55,9 @@
   );
 }
 
-.plasmic_default_styles {
+.plasmic_default_styles,
+.plasmic_default_styles:where(.global_experiment_override),
+.plasmic_default_styles:where(.global_segment_override) {
   --mixin-i5O0zohGA8yX1M_font-family: "Montserrat", sans-serif;
   --mixin-i5O0zohGA8yX1M_font-size: 24px;
   --mixin-i5O0zohGA8yX1M_font-weight: 400;
@@ -182,7 +184,9 @@
 }
 
 @media (max-width: 930px) {
-  .plasmic_default_styles {
+  .plasmic_default_styles,
+  .plasmic_default_styles:where(.global_experiment_override),
+  .plasmic_default_styles:where(.global_segment_override) {
     --mixin-i5O0zohGA8yX1M_font-size: 18px;
     --mixin-i5O0zohGA8yX1M_font-weight: 400;
     --mixin-i5O0zohGA8yX1M_white-space: pre-wrap;
@@ -202,7 +206,9 @@
   }
 }
 
-.plasmic_mixins {
+.plasmic_mixins,
+.plasmic_mixins:where(.global_experiment_override),
+.plasmic_mixins:where(.global_segment_override) {
   --mixin-1Qg9upWB3MpAEW_box-shadow: 0px 0px 0px 3px #007aff80;
   --plasmic-mixin-focus-shadow_box-shadow: var(
     --mixin-1Qg9upWB3MpAEW_box-shadow
