@@ -353,7 +353,7 @@ function PlasmicHomepage__RenderFunc(props: {
           <Section
             data-plasmic-name={"more"}
             data-plasmic-override={overrides.more}
-            background={"darkBlue" as const}
+            background={"dark" as const}
             className={classNames("__wab_instance", sty.more)}
             size={
               hasVariant(globalVariants, "screen", "mobile")
