@@ -221,7 +221,10 @@ function PlasmicHomepage__RenderFunc(props: {
                         sty.button__z6VRh
                       )}
                       color={"blueBorder" as const}
-                      link={"#More" as const}
+                      link={"" as const}
+                      onClick={async event => {
+                        const $steps = {};
+                      }}
                     >
                       <div
                         className={classNames(

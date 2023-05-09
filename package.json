@@ -8,6 +8,7 @@
     "@plasmicapp/react-web": "^0.2.209",
     "@plasmicpkgs/antd5": "^0.0.55",
     "@plasmicpkgs/plasmic-nav": "^0.0.103",
+    "@plasmicpkgs/react-parallax-tilt": "^0.0.131",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
