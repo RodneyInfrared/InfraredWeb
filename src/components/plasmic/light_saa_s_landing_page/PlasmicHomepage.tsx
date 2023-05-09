@@ -367,7 +367,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   {hasVariant(globalVariants, "screen", "mobile")
-                    ? "Lorem Ipsum"
+                    ? "Website Hosting"
                     : "Website Hosting"}
                 </h2>
                 <div className={classNames(projectcss.all, sty.freeBox__e3Wui)}>
