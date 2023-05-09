@@ -370,17 +370,6 @@ function PlasmicHomepage__RenderFunc(props: {
                     ? "Lorem Ipsum"
                     : "Website Hosting"}
                 </h2>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___6KVhZ
-                  )}
-                >
-                  {hasVariant(globalVariants, "screen", "mobile")
-                    ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex."
-                    : "Not only do we provide professional web design, we also provide top tier web hosting with Cloudflare DDOS protection."}
-                </div>
                 <div className={classNames(projectcss.all, sty.freeBox__e3Wui)}>
                   <div
                     className={classNames(projectcss.all, sty.freeBox__yyPtl)}
